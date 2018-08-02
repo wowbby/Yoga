@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name = 'Hyoga'
-  spec.version = '0.4.0'
+  spec.version = '0.2.0'
   spec.license =  { :type => 'MIT' }
   spec.homepage = 'https://facebook.github.io/yoga/'
   spec.documentation_url = 'https://facebook.github.io/yoga/docs/api/c/'
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.description = 'Yoga is a cross-platform layout engine enabling maximum collaboration within your team by implementing an API many designers are familiar with, and opening it up to developers across different platforms.'
 
   spec.author           = { 'wowbby' => 'zhengzx@haierubic.com' }
-  spec.source           = { :git => 'https://github.com/wowbby/yoya.git', :tag => spec.version.to_s }
+  spec.source           = { :git => 'https://github.com/wowbby/Yoga.git', :tag => spec.version.to_s }
 
   spec.module_name = 'yoga'
   spec.requires_arc = false
